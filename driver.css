@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: local('Arial Rounded MT'), local('ArialRoundedMT');
+    /* You can also provide a URL to a font file if needed */
+}
+
+body {
+    background: url('https://images.pexels.com/photos/1521580/pexels-photo-1521580.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1521580.jpg&fm=jpg'); /* Replace with the URL of your taxi background image */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffbf00;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #3498db; /* Highlighted driver names color */
+    transition: color 0.3s ease;
+}
+
+    label:hover {
+        color: #e74c3c; /* Dark red on hover for highlighted effect */
+    }
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #3498db; /* Highlighted border color */
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 18px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+#driver_info {
+    color: #f4f4f4;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+.return-home {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it look like a button */
+    font-size: 16px; /* Font size */
+    margin-top: 20px; /* Add some space at the top */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+}
+
+    .return-home:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+    #driver_info {
+        margin-bottom: 10px; /* Add margin for spacing */
+    }
+    
+    #driver_info strong {
+        color: #007bff; /* Change color to blue (or your preferred color) */
+    }
