@@ -9,6 +9,9 @@ body {
     margin: 0;
     padding: 0;
 }
+*{  
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+}
 
 .driver-selection-container {
     background: url(images/background.png);
@@ -20,10 +23,19 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
+ h1 {
+        text-align: center;
+        color: #333; /* Set the text color */
+        background-color: #ffc61a; /* Set a background color for the heading */
+        padding: 15px; /* Add padding for better spacing */
+        border-radius: 8px; /* Add rounded corners to the heading */
+        margin-bottom: 20px; /* Add space below the heading */
+    }
+
+    #fare {
+        font-size: 24px; /* Adjust the font size */
+        color: #333; /* Set the text color */
+    }
 
 label {
     display: block;
@@ -32,6 +44,7 @@ label {
 
 input[type="radio"] {
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 #driver_info {

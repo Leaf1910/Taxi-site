@@ -9,7 +9,7 @@ $ride_id = $_SESSION['ride_id'];
 $sql = "INSERT INTO reviews_table(ride_id, rating, comment) VALUES ('$ride_id', '$rating', '$comment')";
 $run = mysqli_query($con,$sql);
 if($run){
-    header('location: index.php');
+    header('location: index_login.php');
 }else {
     echo "Error: " . mysqli_error($con);
 }

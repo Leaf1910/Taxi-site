@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.pexels.com/photos/1521580/pexels-photo-1521580.jpeg?cs=srgb&dl=pexels-rodolfo-clix-1521580.jpg&fm=jpg');
+    color: #fff;
+}
+
+.driver-selection-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    background: url(images/background.png);
+
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    background-color: #ffc61a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#fare {
+    font-size: 24px;
+    color: #333;
+}
+
+.custom-radio {
+    margin-bottom: 20px;
+    display: block;
+}
+
+#custom-radio input[type="radio"] {
+    display: none;
+}
+
+#custom-radio label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    line-height: 20px;
+    color: #333;
+    display: inline-block;
+}
+
+#custom-radio label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#custom-radio input[type="radio"]:checked + label:before {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -137,9 +137,12 @@ background: white;
     font-size: 1.5rem;
     
 }
+.contact-form a:hover {
+    background-color: #333; /* Adjust the hover background color if needed */
+}
 .submit{
     padding-top: 2rem;
-
+    
 
 }
 
@@ -296,6 +299,23 @@ background: white;
 .clients h1{
     color: #ffc61a;
     margin-left: 1rem;
+}
+
+#button button {
+    background: black;
+    width: 100%;
+    display: inline-block;
+    padding: 2rem 0;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#button button:hover {
+    background-color: green; /* Adjust the hover background color if needed */
 }
 
 

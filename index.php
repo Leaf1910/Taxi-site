@@ -31,7 +31,7 @@
     <div class="home-content">
         <div class="inner-content">
             <h3>Best in city</h3>
-            <h2>trusted cab sservice in county</h2>
+            <h2>trusted cab service in county</h2>
             
         </div>
         <div class="inner-content">
@@ -40,14 +40,11 @@
                    <h1>book a cab</h1>
                </div>
                <div class="form-fields">
-                   <input type="text" placeholder="name">
-                   <input type="text" placeholder="phone">
-                   <input type="text" placeholder="when">
-                   <input type="date" placeholder="date">
-                   <input type="time" placeholder="start time">
+                   <input type="text" placeholder="Login Required">
+                   
                </div>
                <div class="submit">
-                <a href="login.php">Submit</a>
+                <a href="login.php">Go To Login Page</a>
                </div>
               
            </div>

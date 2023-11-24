@@ -19,7 +19,7 @@ mysqli_select_db($con, 'taxi_service');
         <form action="review_submit.php" method="post">
             <h2>Your Ride has been booked successfully</h2>
             <h1>Leave a review</h1>
-            <label for="rating">Rating</label>
+            <label for="rating">Rating (Out of 5)</label>
             <input type="text" id="rating" name="rating" required>
             <label for="comment">comment</label>
             <input type="text" id="comment" name="comment" required>

@@ -73,7 +73,9 @@
                 <input type="time" name="time" placeholder="start time" required>
                </div>
                <div class="submit">
+                <div id="button">
                <button type="submit">Submit</button>
+            </div>
                </div>
               
            </div>
