@@ -57,7 +57,7 @@
     <div class="home-content">
         <div class="inner-content">
             <h3>Best in City</h3>
-            <h2>Trusted cab Service in County</h2>
+            <h2>Trusted cab Service in County 1KM = $1</h2>
 
         </div>
         <div class="inner-content">
@@ -65,7 +65,7 @@
                <div class="form-heading">
                    <h1>book a cab</h1>
                </div>
-               <form action="ride_request.php" method="post">
+               <form action="get_dist.php" method="post">
                <div class="form-fields">
                 <input type="text" name="s_location" placeholder="Start location" required>
                 <input type="text" name="e_location" placeholder="End location" required>

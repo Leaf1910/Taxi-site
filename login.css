@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Arial Rounded MT';
     src: local('Arial Rounded MT'), local('ArialRoundedMT');
+    /* You can also provide a URL to a font file if needed */
 }
 
 body{
@@ -13,10 +14,10 @@ body{
 }
 
 h1 {
-    font-size: 36px; 
-    color: #ffbf00; 
-    margin-bottom: 16px;
-    text-align: center; 
+    font-size: 36px; /* Set the font size */
+    color: #ffbf00; /* Set the text color */
+    margin-bottom: 16px; /* Add bottom margin for spacing */
+    text-align: center; /* Center the text */
 }
 /* login.css */
 .login-container {
@@ -31,10 +32,10 @@ h1 {
 
 
 label {
-    display: block;
-    margin-bottom: 8px; 
-    font-size: 26px;
-    color: #333;
+    display: block; /* Make labels block-level elements */
+    margin-bottom: 8px; /* Add some bottom margin for spacing */
+    font-size: 26px; /* Set the font size */
+    color: #333; /* Set the text color */
 }
 
 input {
@@ -59,9 +60,9 @@ button:hover {
 }
 #driver_info{
     color: #f4f4f4;
-    display: block; 
-    margin-bottom: 8px; 
-    font-size: 26px; 
+    display: block; /* Make labels block-level elements */
+    margin-bottom: 8px; /* Add some bottom margin for spacing */
+    font-size: 26px; /* Set the font size */
 
 
 }

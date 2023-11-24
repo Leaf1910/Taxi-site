@@ -31,7 +31,7 @@
     <div class="home-content">
         <div class="inner-content">
             <h3>Best in city</h3>
-            <h2>trusted cab service in county</h2>
+            <h2>trusted cab service in county 1KM = $1</h2>
             
         </div>
         <div class="inner-content">
@@ -194,6 +194,19 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>
