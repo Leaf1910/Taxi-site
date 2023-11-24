@@ -195,33 +195,7 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="script.js"></script>
 </body>
 </html>
- <!--<div class="myform">
-                <div class="heading">
-                    <h2>book cab</h2>
-                </div>
-                <div class="myfields">
-                    <input type="text" placeholder="when">
-                    <input type="text" placeholder="when">
-                    <input type="text" placeholder="when">
-                    <input type="text" placeholder="when">
-                    <input type="text" placeholder="when">
-                    <input type="text" placeholder="when">
-                </div>
-                <a href="#">Submit</a>
-            </div> -->
+ 
