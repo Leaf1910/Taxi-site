@@ -16,7 +16,7 @@ mysqli_select_db($con, 'taxi_service');
 </head>
 <body>
     <div class="login-container">
-        <form action="login_process.php" method="post">
+        <form action="review_submit.php" method="post">
             <h2>Your Ride has been booked successfully</h2>
             <h1>Leave a review</h1>
             <label for="rating">Rating</label>

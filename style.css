@@ -351,20 +351,20 @@ background: white;
         width: 100%;
         text-align: center;
     }
-    .welcome-message {
-        color: white;
-        font-size: 1.7rem;
-        text-decoration: none;
-    }
     
     .user-name {
         color: #ffc61a;
         
     }
-    .welcome-message {
-        font-size: 18px;
-        color: #333; /* Choose your desired color */
-        margin-right: 20px; /* Adjust the margin as needed */
+    .navbar welcome-message {
+        color: white;
+        font-size: 1.7rem;
+        text-decoration: none;
+        display: block;
+        font-size: 1.5rem;
+        background: #ffc61a;
+        margin: 1rem;
+        padding: 1rem;
     }
     
     /* User Name */
